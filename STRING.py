@@ -162,3 +162,25 @@ def sy(v):
              b+=v[i]
     return print(b)
 sy(v)
+
+# Question (15). rotate string "   " by k times to left  ----->
+# "tejaswani"--> 3 times    ===========> "aswanitej"       (left movement -- first 3 char will move to right end)     
+# "tejaswani"--> 3 times    ===========> "anitejasw"       (right movement -- last 3 char will move to left start)
+
+v='tejaswani'
+k=3 
+# k=k%len(v)                # if the value is more than len()  --> then we need to add % of length --> so that it given len-5 and value is 7, it will rotate after 5 value to starting as a clock
+leftmove=v[:k]                    #tej
+rem=v[k:len(v)]                   #aswani
+print(rem+leftmove)               #aswanitej
+print(v[k:]+v[:k])                #aswanitej
+print(v[len(v)-k:]+v[:len(v)-k])  #anitejasw    len(v)-k:] ===> ani     v[:len(v)-k] ===> tejasw      ---> % is not required in negative 
+print(v[-k:]+v[:-k])              #anitejasw
+
+#find method---->
+
+b='tejaswi'
+x='ja'
+print(b.find(x))       #2 starting value of j - index value
+
+#without find method:
