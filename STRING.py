@@ -134,3 +134,22 @@ for chr in v:                   # h     a       a       d       y       a
     else :
         once.add(chr)           # h     a               d       y
 print(repeat,'==&&==', once)    # return --> {'a'} ==&&== {'h', 'd', 'a', 'y'}
+
+# Question (14). concatenate even position of string
+
+v='tejaswani'
+b=''
+for i in range(len(v)):
+    if i%2==0:
+        b+=v[i]
+print(b)
+
+# (or) in function
+
+def sy(v):
+    b=''
+    for i in range(len(v)):
+        if i%2==0:
+             b+=v[i]
+    return print(b)
+sy('tejaswani')
