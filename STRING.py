@@ -1,3 +1,5 @@
+#<----------------------------------------------------------STRING problems---------------------------------------------------------->
+
 # Question (1).	 Reverse a given string.(with index and with out index)
     
 #---> with index
