@@ -82,6 +82,33 @@ print(res)                              #==> [[1,2],[3,4],[5,6]]
 
 res=[[x,x+1,x+2] for x in range(1,8,3)]
 2	print(res)                            #==>[[1,2,3],[4,5,6],[7,8,9]]
+
+#9. Write a program where we can find the input no. of days into years, months, days
+
+j=395
+if j>0:
+  data=j//365
+  if data>0:              # skips if the value is 0 (zero)
+    print(data,'years')
+    j%=365
+if j>0:
+  data1=j//30
+    if data1>0:
+    print(data1,'months')
+    j%=30
+if j>0:
+  data2=j//7
+  if data2>0:
+    print(data2, 'week')
+    j%=7
+if j>0:
+  print(j,'days')
+
+#==> 1 years
+#    1 months
+#    1 days
+
+
 #--------------------------------------------------------------------------------------------------------------------------------------------
 # 1.	Flatten the nested list [[1, 2], [3, 4], [5, 6]] into a single list.
 # 2.	From a nested list [[2, 5], [7, 9], [12, 15]], extract all even numbers.
