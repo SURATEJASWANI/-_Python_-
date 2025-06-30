@@ -142,3 +142,31 @@ if j>0:
 # 5.	students = [("Alice", 85), ("Bob", 45), ("Charlie", 60), ("David", 30)]
 #                Create a tuple containing names of students who scored 50 or more using comprehension
 
+
+#--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+1.	What is List Comprehension? Give an Example.?
+2.	What are  *args   and **kwargs  give an example? 
+3.	What is break and continue and pass in python , give an example?
+4.	Difference between list and tuple in python? 
+5.	Combine two lists index-wise:
+lst1 = [1, 2, 3]
+lst2 = ['a', 'b', 'c']
+Output: [1, 'a', 2, 'b', 3, 'c']
+6.	Find all pairs in a list whose sum is equal to a given number target = 10:
+lst = [2, 4, 6, 3, 5, 7, 8]
+7.	What is the difference between shallow copy and deep copy give an example? 
+8.	Create a list of tuples (number, square) for numbers from 1 to 5 using list comprehension in python?
+9.	Replace negative numbers with 0 using list comprehension:
+EX: nums = [-2, 3, -5, 6]
+10.	Print the Primary Diagonal Elements of a list?
+Lis= [
+    	[1, 2, 3],
+    	[4, 5, 6],
+    	[7, 8, 9]
+    ]
+   Expected output: [1, 5, 9]
+
+11.	Write a Python program to find the character that appears the most number of times in a given string.
+    N=fullstack developer
