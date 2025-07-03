@@ -18,6 +18,15 @@ print(p)
 
 # Return ==> {'id': 101, 'name': 'John', 'age': 25}
 
+--------------------or--------------------
+
+k=['a','b','c']
+v=[1, 2, 3]
+res={k[x]:v[x] for x in range(len(k))}
+print(res)
+
+# Return ==> {'a': 1, 'b': 2, 'c': 3}
+
 # 2.	Create a dictionary to store student name and age.
 
 v=dict([('tej',23),('vinu',25),('haadya',24)])
