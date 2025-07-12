@@ -170,3 +170,40 @@ Lis= [
 
 11.	Write a Python program to find the character that appears the most number of times in a given string.
     N=fullstack developer
+
+#--------------------------------------------------------------------------------------------------------------------------------------------
+
+1. Write a Python program to create a basic calculator that performs the following
+operations:
+• Addition
+• Subtraction
+• Multiplication
+• Division
+Requirements:
+ The program should take two numbers as input from the user.
+ The program should ask the user to choose the operation (+, -, *, /).
+ Based on the user’s choice, perform the corresponding arithmetic operation.
+ Handle division by zero error gracefully with a proper message.
+ The program should display the result clearly.
+2. Write a Python program to print the first N terms of the Fibonacci series using a while loop.
+3. Write a program to check whether a number is an Armstrong number using a while loop.
+Example: 153 → 1³ + 5³ + 3³ = 153
+4. Write a program to find the greatest digit in a given number using a while loop.
+5. Write a program to find greatest(a, b, c) to find the greatest of three numbers.
+6. Write a function sum_numbers(*args) that accepts any number of arguments and returns
+their sum.
+7. Write a function display_info(**kwargs) that prints all key-value pairs passed as arguments.
+8. Write a Python program to calculate the sum of elements present at even indices and odd
+indices separately
+9. Write a Python program to double all even numbers in the same list without creating a
+new list.
+ Conditions:
+You must modify the list in-place.
+Odd numbers should remain unchanged.
+10. Modify the list such that all even numbers are halved, odd numbers remain
+unchanged.
+Example:
+Input: [4, 7, 8, 3] → Output: [2, 7, 4, 3]
+11. Check given number is perfect number or not ?
+12. Write a Python program that takes a sentence as input and separates the uppercase and
+lowercase letters from the sentence.
