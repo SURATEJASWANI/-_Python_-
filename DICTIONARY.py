@@ -220,3 +220,35 @@ print(d)
 
 #=> Returns: {'cat': 'tac', 'dog': 'god', 'bat': 'tab'}
 
+1. Invert a dictionary with list values (group keys by their values)
+Input:
+d = {'a': 1, 'b': 2, 'c': 1, 'd': 3}
+Output:
+{1: ['a', 'c'], 2: ['b'], 3: ['d']}
+(Hint: Use setdefault method)
+2. Find Max and Min Value in Dictionary
+Input:
+d = {'a': 10, 'b': 5, 'c': 15}
+Output:
+Max Value → 15
+Min Value → 5
+3. Create a dictionary using dictionary comprehension for the given list of numbers,
+where:
+• Each number is a key.
+•
+The value is "prime" if the number is prime.
+•
+The value is "notprime" if the number is not prime.
+ Output: {2: 'prime', 3: 'prime', 4: 'notprime', 5: 'prime', 6: 'notprime'}
+4. Create a dictionary from a list of words, keys as words, values as word lengths, but
+only for words longer than 3 characters
+ List: ["hi", "hello", "world", "is", "great"]
+5. Create a dictionary with uppercase letters as keys and their ASCII values as values use
+dict comprehension .
+Input: letters = ['a', 'b', 'c']
+Expected Output:
+{'A': 65, 'B': 66, 'C': 67}
+6. Explain about setdefault function in dictionary data type ?
+7. Difference between d[key] and d.get(key)?
+8. What is the difference between Shallow Copy and Deep Copy in Python? Explain with
+examples.
