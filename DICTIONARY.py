@@ -220,6 +220,8 @@ print(d)
 
 #=> Returns: {'cat': 'tac', 'dog': 'god', 'bat': 'tab'}
 
+#--------------------------------------------------------------------------------------------------------------------------------------------
+
 1. Invert a dictionary with list values (group keys by their values)
 Input:
 d = {'a': 1, 'b': 2, 'c': 1, 'd': 3}
